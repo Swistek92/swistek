@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        width: 30px;
+            height: 30px;
+            background-color: rgb(235, 16, 16);
+            position: fixed;
+            background-color: rgb(0, 0, 0);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-size: contain;
+            background-repeat: no-repeat;
+            
+    }
+
+    body {
+        height: 10000000vh;
+    }
+</style>
+<body style= "background-color: black;">
+    <script src="main.js"></script>
+
+
+
+<!-- 
+
+    <script>
+
+const square = document.createElement('div');
+square.src = "https://d-art.ppstatic.pl/kadry/k/r/1/1e/5c/5f9933db25467_o_medium.jpg";
+square.style.setProperty('background-image','url(' +square.src + ')' );
+square.style.setProperty('backgruound-size', 'auto');
+document.body.appendChild(square); 
+ 
+let grow = true;
+
+
+let size = 10; // 
+square.style.width =size + "vh";
+square.style.height =size + "vh";
+
+
+ window.addEventListener("scroll", ()=> {
+     if(grow == true){
+        size +=10;
+        square.style.width=size +"vh";
+        square.style.height=size +"vh";
+     } else {
+        size -=10;
+        square.style.width=size +"vh";
+        square.style.height=size +"vh";
+     }
+
+     if(size >= window.innerHeight){
+         grow = false;
+     }else if (size == 10) {
+        grow = true;
+     }
+ });
+
+
+
+
+    </script> -->
+</body>
+</html>
