@@ -11,9 +11,10 @@ const init = () => {
 const btn =document.createElement('button');
 const btnReset =document.createElement('button');
 btn.textContent = "add 10 element";
+
 btnReset.textContent = "clear";
-btn.style.fontSize ="30px";
-btnReset.style.fontSize ="30px";
+btn.style.fontSize ="10vh";
+btnReset.style.fontSize ="10vh";
 document.body.appendChild(btn);
 document.body.appendChild(btnReset);
 const ul =document.createElement('ul');
